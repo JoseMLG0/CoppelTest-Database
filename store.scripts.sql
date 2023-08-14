@@ -1,3 +1,9 @@
+
+DELIMITER $$
+CREATE DATABASE coppeltest$$
+USE coppeltest$$
+DELIMITER
+
 DELIMITER $$
 CREATE PROCEDURE validarNumeroEmpleado(IN numero Varchar(250), OUT res INT)
 BEGIN
